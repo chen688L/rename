@@ -1,0 +1,69 @@
+<view>
+    <view class="content">
+        <view class="content-title">
+            <view class="dot dot1"></view>
+            <view class="title">前端技能</view>
+            <view class="content-details">
+                <view>具有良好的HTML、CSS、JavaScript基础</view>
+                <view>对前端样式、布局、事件有一定的了解</view>
+                <view>会使用Vue框架，了解Vue指令、组件等</view>
+                <view>熟悉Node.js，能进行初步web接入层开发</view>
+                <view>会使用JSON和后台接口对接,配合后端完成数据交互</view>
+                <view>会使用HBuilder X 、VS Code等软件工具</view>
+                <view>使用过微信小程序云开发</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="content2">
+        <view class="content-title">
+            <view class="dot dot2"></view>
+            <view class="title">后端技能</view>
+            <view class="content-details">
+                <view>了解Java语言，有一定的后端基础</view>
+                <view>熟悉MySQL数据库开发技术</view>
+              
+                <view>使用过Git进行版本管理</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="content3">
+        <view class="content3_">
+            <view class="content3_title">
+                <view class="dot dot1"></view>
+                <view class="content3-title">HTML / CSS / JavaScript</view>
+            </view>
+            <view class="progress-box">
+                <progress class="p1" percent="80" color="#86cde9" border-radius="8" active stroke-width="8" />
+            </view>
+        </view>
+        <view class="content3_">
+            <view class="content3_title">
+                <view class="dot dot1"></view>
+                <view class="content3-title">Vue</view>
+            </view>
+            <view class="progress-box">
+                <progress class="p2" percent="60" color="#f37d0c" border-radius="8" active stroke-width="8" />
+            </view>
+        </view>
+        <view class="content3_">
+            <view class="content3_title">
+                <view class="dot dot1"></view>
+                <view class="content3-title">Element UI</view>
+            </view>
+            <view class="progress-box">
+                <progress class="p3" percent="50" color="orange" border-radius="8" active stroke-width="8" />
+            </view>
+        </view>
+        <view class="content3_">
+            <view class="content3_title">
+                <view class="dot dot1"></view>
+                <view class="content3-title">小程序开发</view>
+            </view>
+            <view class="progress-box">
+                <progress class="p4" percent="80" color="#b8e986" border-radius="8" active stroke-width="8" />
+            </view>
+        </view>
+    </view>
+</view>

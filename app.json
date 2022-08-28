@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/major/major",
+    "pages/ability/ability",
+    "pages/project1/project1",
+    "pages/project2/project2",
+    "pages/project3/project3",
+    "pages/project4/project4",
+    "pages/project5/project5"
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "个人信息",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/nav/person.png",
+        "selectedIconPath": "images/nav/person_active.png"
+      },
+      {
+        "text": "专业能力",
+        "pagePath": "pages/major/major",
+        "iconPath": "images/nav/major.png",
+        "selectedIconPath": "images/nav/major_active.png"
+      },
+      {
+        "text": "实践经验",
+        "pagePath": "pages/ability/ability",
+        "iconPath": "images/nav/book.png",
+        "selectedIconPath": "images/nav/book_active.png"
+      }
+    ]
+  }
+}

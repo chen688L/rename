@@ -1,0 +1,33 @@
+<view>
+    <view class="content">
+        <view class="content-title">
+            <view class="dot"></view>
+            <view class="title">技术架构</view>
+            <view class="content-details">
+                <view>前端技术架构： {{myproject.ledding}}</view>
+                <view>后端技术架构:  {{myproject.afterEnd}}</view>
+                <view>工具:  {{myproject.tool}} </view>
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content-title">
+            <view class="dot"></view>
+            <view class="title">职责和项目介绍</view>
+            <view class="content-details">
+                <view>职责 小组开发技术负责人之一</view>
+                <view>项目介绍</view>
+                <view style="width: 280px;">{{myproject.intro}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content-img">
+            <view>部分页面展示</view>
+            <block wx:for="{{myproject.img}}" wx:key="index">
+                <image class="pro" bindtap="preview" data-src="{{item}}" src="{{item}}"></image>
+            </block>
+        </view>
+    </view>
+</view>
+

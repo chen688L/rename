@@ -1,0 +1,20 @@
+<view class="content" wx:for="{{myproject}}"  wx:key="index">
+    <view class="content-img">
+        <view>{{item.name}}</view>
+        <image wx:if="{{item.img.length>0}}" class="pro" bindtap="preview" data-src="{{item.img}}" src="{{item.img}}"></image>
+        <!-- <video wx:if="{{item.img.length<=0}}" src="{{item.audio}}"></video> -->
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+

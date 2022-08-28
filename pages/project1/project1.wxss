@@ -1,0 +1,64 @@
+page{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.content{
+    margin-top: 40rpx;
+}
+/* 前后端技能  */
+.content-title{
+    width: 90%;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    height: 400rpx;
+    font-size: 28rpx;
+    position: relative;
+}
+/* 小圆点 */
+.dot{
+    width: 24rpx;
+    height: 24rpx;
+    border-radius: 50%;
+    line-height: 20rpx;
+    top: 30rpx;
+    left: 50rpx;
+    position: relative;
+    background-color: red;
+}
+/* 小标题 */
+.title{
+    position:absolute;
+    top: 24rpx;
+    left: 90rpx
+}
+/* 标题 */
+.content-details{
+    position: absolute;
+    top: 78rpx;
+    left: 50rpx;
+}
+.content-details view{
+    margin-top: 20rpx;
+    font-size: 26rpx;
+}
+.content-img{
+    width: 84%;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 50rpx;
+    padding-top: 30rpx;
+    padding-bottom: 50rpx;
+    font-size: 28rpx;
+    overflow: hidden;
+}
+/* 项目图片展示 */
+.pro{
+    margin-top: 20rpx;
+    width: 300rpx;
+    height: 500rpx;
+}

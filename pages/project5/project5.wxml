@@ -1,0 +1,10 @@
+<view>
+    <view class="content">
+        <view class="content-img">
+            <view>工具Axure-页面展示</view>
+            <block wx:for="{{myproject.img}}" wx:key="index">
+                <image class="pro" bindtap="preview" data-src="{{item}}" src="{{item}}"></image>
+            </block>
+        </view>
+    </view>
+</view>

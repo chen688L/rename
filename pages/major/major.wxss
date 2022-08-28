@@ -1,0 +1,87 @@
+page{
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.content{
+    margin-top: 40rpx;
+}
+/* 前后端技能  */
+.content-title{
+    width: 90%;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    height: 400rpx;
+    font-size: 28rpx;
+    position: relative;
+}
+/* 小圆点 */
+.dot{
+    width: 24rpx;
+    height: 24rpx;
+    border-radius: 50%;
+    line-height: 20rpx;
+    top: 30rpx;
+    left: 50rpx;
+    position: relative;
+}
+.dot1{
+    background-color: red;
+}
+.dot2{
+    background-color: orange;
+}
+/* 小标题 */
+.title{
+    position:absolute;
+    top: 24rpx;
+    left: 90rpx
+}
+/* 技能内容介绍 */
+.content-details{
+    position: absolute;
+    top: 78rpx;
+    left: 50rpx;
+}
+.content-details view{
+    margin-top: 16rpx;
+    font-size: 26rpx;
+}
+
+/* 技能图示 */
+.content3{
+    width: 100%;
+    height: 700rpx;
+    background-color: white;
+    margin-top: 30rpx;
+    padding-top: 30rpx;
+    font-size: 26rpx;
+}
+/* 进度条 */
+.progress-box{
+    width: 80%;
+    position: absolute;
+    top: 70rpx;
+    left: 50rpx;
+}
+.wx-progress-inner-bar {
+    border-radius: 8rpx !important;
+}
+/* 图示技能框 */
+.content3_{
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+.content3-title{
+    position: absolute;
+    top: 24rpx;
+    left: 90rpx;
+}
+
+
+

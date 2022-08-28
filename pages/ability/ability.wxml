@@ -1,0 +1,7 @@
+<view class="project" wx:for="{{project}}" wx:key="index" bindtap="getProject" data-id="{{item.id}}">
+    <view>
+        <image src="{{item.image}}"></image>
+        <view class="name">{{item.name}}</view>
+        <view class="time">{{item.time}}</view>
+    </view>
+</view>

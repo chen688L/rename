@@ -1,0 +1,78 @@
+<view class="userinfo">
+
+  <view class="first content">
+    <image class="userImg" src="../../images/logo.jpg"></image>
+    <view>陈燕玲</view>
+    <view>期望职位：前端开发</view>
+    <view>女 23岁</view>
+  </view>
+
+  <view class="two content">
+    <view class="edu">
+      <image class="img" src="../../images/edu.png"></image>
+      <view class="content-title">
+        <text>教育背景</text>
+      </view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/time.png"></image>
+      <view>2019.09-2023.6</view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/school.png"></image>
+      <view>广州大学华软软件学院</view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/zhuanye.png"></image>
+      <view>软件工程专业</view>
+    </view>
+  </view>
+
+  <view class="two content">
+    <view class="edu">
+      <image class="img" src="../../images/gold-medal.png"></image>
+      <view class="content-title">
+        <text>获奖情况</text>
+      </view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/trophy.png"></image>
+      <view>2020-2021 校学生奖学金一等奖</view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/trophy.png"></image>
+      <view>2019-2020 校学生奖学金二等奖</view>
+    </view>
+    <view class="major">
+      <image class="img" src="../../images/trophy.png"></image>
+      <view>2019-2020 优秀共青团员</view>
+    </view>
+    <!-- <view class="prove">相关证明</view> -->
+  </view>
+
+
+  <view class="three content">
+    <view class="person">
+      <image class="img" src="../../images/oneperson.png"></image>
+      <view class="content-title">
+        <text>自我评价</text>
+      </view>
+    </view>
+    <view class="three-content">
+      <view>
+        <text>
+          <image class="img1"></image>
+          在校期间曾担任班级学习委员，组织班级50余人的cet-4等考试报名，及时收发各种考试资料，并做好内容归档，有效率100%。协助策划班委开展数十场活动以及会议
+          
+          曾任快手协会宣传部副部长，复制撰写推文活动拍照等，有一定的排版能力
+
+          会使用前端辅助工具ps和axure以便更好地实现前端页面搭建。性格开朗，热爱前端开发，自学能力较强，对前端开发有浓厚的兴趣
+
+          <image class="img1"></image>
+          兴趣爱好：跑步、刷微信、微博/逛论坛（如CSDN、博客园等）、玩游戏（如王者荣耀、光遇、阴阳师等）
+        </text>
+      </view>
+    </view>
+  </view>
+
+</view>
